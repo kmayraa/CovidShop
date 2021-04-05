@@ -32,7 +32,7 @@ import com.covid.repository.UserRepository;
 import com.covid.security.jwt.JwtUtils;
 import com.covid.security.services.UserDetailsImpl;
 
-@CrossOrigin(origins = "*", maxAge = 3600)
+@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
